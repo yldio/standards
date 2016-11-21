@@ -13,20 +13,7 @@ Qualities of a good choice of standard are:
 
 There are very good reasons to have a common way of doing things in YLD, justifications for not complying with these may be "we have no ownership over these choices" but not "I don't agree with them so I'm not using them".
 
-# Javascript Code Style
+## Contents
 
-## eslint with the `eslint-config-airbnb-base` preset, `eslint-config-airbnb` for React projects;
-
-We can start a project to extend one of those bases if we find we have issues with some rules.
-
-## Webpack and Babel
-
-Rollup and Bublé might be tempting but we don't have any production experience with them, as soon as someone starts getting some at home experience we can start doing safer things with this on clients and then bigger things.
-
-# Deployment
-
-- If you have AWS, use as much managed infrastructure as you can: less ops work;
-
-- Use `docker-machine` with the appropriate driver (e.g. [AWS EC2](https://docs.docker.com/machine/drivers/aws/), [digital ocean](https://docs.docker.com/machine/drivers/digital-ocean/), [Google GCE](https://docs.docker.com/machine/drivers/gce/), [lots of drivers](https://docs.docker.com/machine/drivers/))
-
-It's a good common vendor abstraction.
+- [JavaScript Code Styles](js-code-style.md)
+- [Deployment](deployment.md)
