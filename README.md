@@ -10,6 +10,7 @@ Qualities of a good choice of standard are:
 - Is flexible to support multiple scenarios;
 - Is not restricting;
 - Is safe, production ready, and project members have experience with it;
+- Promotes good coding practices;
 
 There are very good reasons to have a common way of doing things in YLD, justifications for not complying with these may be "we have no ownership over these choices" but not "I don't agree with them so I'm not using them".
 
