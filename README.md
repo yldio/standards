@@ -15,5 +15,6 @@ There are very good reasons to have a common way of doing things in YLD, justifi
 
 ## Contents
 
+- [Picking Technology](picking-technology.md)
 - [JavaScript Code Styles](js-code-style.md)
 - [Deployment](deployment.md)
