@@ -159,3 +159,23 @@ unset CDPATH
 ```
 
 You can read more about how this can cause problems [here](https://bosker.wordpress.com/2012/02/12/bash-scripters-beware-of-the-cdpath/)
+
+## Debugging bash
+
+If you add `set -x` to your bash scripts then bash will run in debug mode.
+Traces of each command plus its arguments are printed to standard output after
+the commands have been expanded but before they are executed.
+
+To narrow your search you can also selectively debug parts of your script by
+wrapping them in set commands:
+
+```bash
+set -x
+# ... bash commands here
+set +x
+```
+
+More extensive documentation on `set -x` is on the [linux documentation project](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_02_03.html)
+
+There is also the [bash debugger](http://bashdb.sourceforge.net/) if you get
+really stuck.
