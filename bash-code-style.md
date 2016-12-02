@@ -5,12 +5,12 @@
 If you are coordinating a bunch of other utilities and it is not a complex
 process bash is a good choice.  It can also be helpful for prototyping quickly
 before reaching for a more powerful language.  As a rule of thumb bash scripts
-should never grow larger than a few hundred lines.  You probably want a better
-language at that point.
+should never grow larger than a few hundred lines.  At this stage you might want
+to re-evaluate choosing bash
 
 ## Bash code style
 
-In general follow [google's excellent recommendations](https://google.github.io/styleguide/shell.xml)
+In general follow [Google's excellent recommendations](https://google.github.io/styleguide/shell.xml)
 for writing Bash.
 
 ## Linting
