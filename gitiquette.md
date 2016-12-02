@@ -71,8 +71,8 @@ because the commit history is unstructured and inconsistent, one doesn't spend
 much time using or taking care of it. And because it doesn't get used or taken
 care of, it remains unstructured and inconsistent.
 
-But a well-cared for log is a beautiful and useful thing. git blame, revert,
-rebase, log, shortlog and other subcommands come to life. Reviewing others'
+But a well-cared for log is a beautiful and useful thing. `git blame`, `revert`,
+`rebase`, `log`, `shortlog` and other subcommands come to life. Reviewing others'
 commits and pull requests becomes something worth doing, and suddenly can be
 done independently. Understanding why something happened months or years ago
 becomes not only possible but efficient.

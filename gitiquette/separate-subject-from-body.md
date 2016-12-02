@@ -42,8 +42,7 @@ chess game.
 ```
 
 This is not so easy to commit this with the -m switch. You really
-need a proper editor. If you do not already have an editor set up for use with
-git at the command line, read this section of Pro Git.
+need a proper editor.
 
 In any case, the separation of subject from body pays off when browsing the log.
 Here's the full log entry:
