@@ -28,3 +28,4 @@ There are very good reasons to have a common way of doing things in YLD, justifi
 - [JavaScript Code Styles](js-code-style.md)
 - [Deployment](deployment.md)
 - [Gitiquette](gitiquette.md)
+- [Writing Bash Scripts](bash-code-style.md)
